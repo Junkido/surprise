@@ -1,0 +1,57 @@
+body {
+ animation: colorBackground 15s infinite;
+ -webkit-animation: colorBackground 15s infinite;
+ -moz-animation: colorBackground 15s infinite;
+ -o-animation: colorBackground 15s infinite
+}
+@keyframes colorBackground {
+ 0% {
+  background-color: #000011;
+  color: #000011
+ }
+ 10% {
+  background-color: #000044;
+  color: #000044
+ }
+  20% {
+  background-color: #333333;
+  color: #333333
+ }
+ 30% {
+  background-color: #001100	;
+  color: #001100
+ }
+ 40% {
+  background-color: #003300;
+  color: #003300
+ }
+ 50% {
+  background-color:#660033;
+  color: #660033
+ }
+
+60% {
+  background-color:#003366;
+  color: #003366
+ }
+
+70% {
+  background-color:#660033;
+  color: #006666
+ }
+
+80% {
+  background-color:#666699;
+  color: #666699
+ }
+
+90% {
+  background-color:#336699;
+  color: #336699
+
+100% {
+  background-color:#666666;
+  color: #666666
+ }
+}
+
